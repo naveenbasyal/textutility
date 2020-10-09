@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style> h1 span{color:white;}</style>
+<h1 style="margin-left:200px;
+    font-family:sans-serif;
+     margin-top:50px;
+     color:crimson;
+
+">Welcome to <span>Text</span> Analyzer . Enter Your <span>Text</span>  Below</h1>
+<form action='/analyze' method='get'>
+<h4><textarea name="text1" style="margin-left: 228px;
+ font-family:verdana;
+ font-size:17px;
+ color: red;
+ width: 683px;
+ padding:10px;
+ height: 184px;
+ border-radius:10px;
+     box-shadow: 0px 0px 23px 15px crimson;
+background-color:thistle;"></textarea></h4>
+    <div style="margin-left:300px;
+    margin-top:35px;
+               font-family:sans-serif;
+                font-weight:light;
+                 color:crimson;">
+    <input type="checkbox" name="removepunc">&nbspRemove Punctuations <br><br>
+    <input type="checkbox" name="charactercount">&nbspCount Character <br><br>
+    <input type="checkbox" name="fullcaps">&nbspUPPER CASE <br><br>
+    <input type="checkbox" name="RemoveExtraSpace">&nbspRemove Extra Space <br><br>
+    </div>
+    <button type="submit" style="
+
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30em;
+   margin-top: 3em;
+">Analyze Text</button>
+</form>
+</body>
+</html>
