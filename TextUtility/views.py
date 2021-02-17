@@ -1,4 +1,4 @@
-#I have created this file "Naveen Basyal"
+#i have created this file "naveen
 from django.http import HttpResponse
 from django.shortcuts import render
 
